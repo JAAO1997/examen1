@@ -17,4 +17,5 @@ class DirectorioController extends Controller
     public function vercontactos(){
         return view('vercontactos');
     }
+
 }
