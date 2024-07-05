@@ -6,6 +6,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/productos/mostrar',
+    [ProductoController::class, 'mostrar']);
